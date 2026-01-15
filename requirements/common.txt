@@ -25,7 +25,7 @@ outlines == 0.1.11
 lark == 1.2.2
 xgrammar == 0.1.19; platform_machine == "x86_64" or platform_machine == "aarch64" or platform_machine == "arm64"
 typing_extensions >= 4.10
-filelock >= 3.16.1 # need to contain https://github.com/tox-dev/filelock/pull/317
+filelock>=3.20.3 # need to contain https://github.com/tox-dev/filelock/pull/317
 partial-json-parser # used for parsing partial JSON outputs
 pyzmq >= 25.0.0
 msgspec
@@ -45,3 +45,5 @@ python-json-logger # Used by logging as per examples/others/logging_configuratio
 scipy # Required for phi-4-multimodal-instruct
 ninja # Required for xgrammar, rocm, tpu, xpu
 pybase64 # fast base64 implementation
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
