@@ -684,7 +684,7 @@ sentence-transformers==3.2.1
     # via
     #   -r requirements/test.in
     #   mteb
-sentencepiece==0.2.0
+sentencepiece==0.2.1
     # via mistral-common
 setuptools==77.0.3
     # via
@@ -757,7 +757,7 @@ tomli==2.2.1
     # via schemathesis
 tomli-w==1.2.0
     # via schemathesis
-torch==2.7.0+cu128
+torch==2.10.0+cu128
     # via
     #   -r requirements/test.in
     #   accelerate
@@ -875,3 +875,4 @@ yarl==1.17.1
     #   schemathesis
 zstandard==0.23.0
     # via lm-eval
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
