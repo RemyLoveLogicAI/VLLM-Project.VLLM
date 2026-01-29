@@ -7,3 +7,5 @@ setuptools>=77.0.3,<80.0.0
 torch-neuronx >= 2.5.0
 neuronx-cc>=2.0.0a0
 torchvision # Required for Llama3.2 multimodal image preprocessing
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
