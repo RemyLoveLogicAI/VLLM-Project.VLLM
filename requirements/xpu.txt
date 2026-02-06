@@ -22,3 +22,4 @@ pytorch-triton-xpu
 intel-extension-for-pytorch==2.7.10+xpu
 oneccl_bind_pt==2.7.0+xpu
 --extra-index-url=https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
